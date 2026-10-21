@@ -31,16 +31,3 @@ NEW -> IN_PROGRESS -> WAITING_FOR_CUSTOMER -> RESOLVED -> CLOSED
  \________________________________________________/
                                   RESOLVED -> REOPENED -> IN_PROGRESS
 ```
-
-```mermaid
-   stateDiagram-v2
-       [*] --> NEW
-       NEW --> IN_PROGRESS
-       IN_PROGRESS --> WAITING_FOR_CUSTOMER
-       WAITING_FOR_CUSTOMER --> IN_PROGRESS
-       IN_PROGRESS --> RESOLVED
-       RESOLVED --> CLOSED
-       RESOLVED --> REOPENED
-       REOPENED --> IN_PROGRESS
-       NEW --> CLOSED
-```
