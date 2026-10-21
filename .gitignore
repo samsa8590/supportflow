@@ -1,0 +1,27 @@
+
+### Compiled Java files ###
+*.class
+
+### Maven build output ###
+target/
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+
+### Logs ###
+*.log
+logs/
+
+### Environment variables and secrets ###
+.env
+.env.*
+!.env.example
+
+### OS-generated files ###
+.DS_Store
+Thumbs.db
+
+### Temporary files ###
+*.tmp
+*.bak
